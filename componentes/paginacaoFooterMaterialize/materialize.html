@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Materialize</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+</head>
+<body>
+  <ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two<span class="new badge" data-badge-caption="">1</span></a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+  <nav class="nav-extended">
+    <div class="nav-wrapper green darken-3">
+      <a href="#" class="brand-logo">Logo</a>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass<span class="new badge red" data-badge-caption="">8</span></a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="#" data-activates="dropdown1" class="dropdown-button">Dropdown</a></li>
+      </ul>
+      
+    </div>
+    <div class="nav-content green darken-3">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="#test1"><i class="material-icons">photo</i></a></li>
+        <li class="tab"><a class="active" href="#test2">Conversas</a></li>
+        <li class="tab"><a href="#test3">Cards</a></li>
+        <li class="tab"><a href="#test4">Perfil</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="test1" class="col s12">Test 1</div>
+  <div id="test2" class="col s12">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <ul class="collection">
+            <li class="collection-item dismissable avatar">
+              <img src="http://materializecss.com/images/yuna.jpg" alt="" class="circle">
+              <span class="title">Nome da pessoa 1</span>
+              <p>últimas conversas...</p>
+              <span class="new badge green notification" data-badge-caption="">1</span>
+              <a href="#!" class="secondary-content"><i class="material-icons">done</i></a>
+            </li>
+            <li class="collection-item dismissable avatar">
+              <img src="http://materializecss.com/images/yuna.jpg" alt="" class="circle">
+              <span class="title">Nome da pessoa 2</span>
+              <p>últimas conversas...</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">done_all</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <img src="http://materializecss.com/images/yuna.jpg" alt="" class="circle">
+              <span class="title">Nome da pessoa 3</span>
+              <p>últimas conversas...</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <img src="http://materializecss.com/images/yuna.jpg" alt="" class="circle">
+              <span class="title">Nome da pessoa 4</span>
+              <p>últimas conversas...</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <img src="http://materializecss.com/images/yuna.jpg" alt="" class="circle">
+              <span class="title">Nome da pessoa 1</span>
+              <p>últimas conversas...</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <img src="http://materializecss.com/images/yuna.jpg" alt="" class="circle">
+              <span class="title">Nome da pessoa 2</span>
+              <p>últimas conversas...</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <img src="http://materializecss.com/images/yuna.jpg" alt="" class="circle">
+              <span class="title">Nome da pessoa 3</span>
+              <p>últimas conversas...</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <img src="http://materializecss.com/images/yuna.jpg" alt="" class="circle">
+              <span class="title">Nome da pessoa 4</span>
+              <p>últimas conversas...</p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="test3" class="col s12">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card ">
+            <div class="card-content">
+              <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card sticky-action">
+            <div class="card-image">
+              <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a class="activator" href="#">Ver Mais</a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a href="#test4">Test 1</a></li>
+                <li class="tab"><a class="active" href="#test5">Test 2</a></li>
+                <li class="tab"><a href="#test6">Test 3</a></li>
+              </ul>
+            </div>
+            <div class="card-content grey lighten-4">
+              <div id="test4">Test 1</div>
+              <div id="test5">Test 2</div>
+              <div id="test6">Test 3</div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel green">
+            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            </span>
+          </div>
+        </div>
+      </div>
+      <ul class="pagination">
+        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+        <li class="waves-effect"><a href="#!">1</a></li>
+        <li class="waves-effect"><a href="#!">2</a></li>
+        <li class="active"><a href="#!">3</a></li>
+        <li class="waves-effect"><a href="#!">4</a></li>
+        <li class="waves-effect"><a href="#!">5</a></li>
+        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="test4" class="col s12">
+    <div class="container">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input type="text" name="nome" id="nome"  value="" class="validate">
+              <label for="nome">Primeiro Nome</label>
+            </div>
+            <div class="input-field col s6">
+              <input type="text" name="nome" id="sobrenome"  value="" class="validate" >
+              <label for="sobrenome">Último Nome</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="email" name="email" id="email"  value="" class="validate">
+              <label for="email" data-error="Digite um e-mail válido" data-success="E-Mail Correto!">E-Mail</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="tel" name="telefone" id="telefone"  value="" class="validate">
+              <label for="telefone">Telefone</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="obs" class="materialize-textarea"></textarea>
+              <label for="obs">Observações</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <select>
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+              <label>Materialize Select</label>
+            </div>
+            <div class="col s6">
+              Maior de 18 anos?
+              <div class="switch">
+                <label>
+                  Não
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  Sim
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p class="col s12 range-field">
+              <input type="range" id="test5" min="0" max="100" />
+            </p>
+          </div>
+        </form>
+      </div>
+      
+    </div>
+
+  </div>
+  <footer class="page-footer green darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l4 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+  
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="js/materialize.js"></script>
+  <script type="text/javascript">
+    $(".button-collapse").sideNav();
+    $('select').material_select();
+
+  </script>
+</body>
+</html>
