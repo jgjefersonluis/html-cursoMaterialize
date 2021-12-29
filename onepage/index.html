@@ -10,12 +10,180 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  
 </head>
 <body>
+  <header>
+    <ul id="slide-out" class="side-nav">
+      <li><div class="user-view">
+        <div class="background grey">
+        </div>
+        <img class="slide-out-logo" src="img/logo.png" alt="">
+      </div></li>
+      <li><a href="#destaque" title="">Início</a></li>
+      <li><a href="#servicos" title="">Serviços</a></li>
+      <li><a href="#produtos" title="">Produtos</a></li>
+      <li><a href="#localizacao" title="">Localização</a></li>
+      <li><a href="#contatos" title="">Contatos</a></li>
+    </ul>
+
+    <div class="navbar-fixed">
+      <nav>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        <div class="nav-wrapper deep-orange darken-4">
+          <a href="#destaque" class="brand-logo">
+            <img class="navbar-logo" src="img/logo-full-navbar.png" alt="">
+          </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#destaque" title="">Início</a></li>
+            <li><a href="#servicos" title="">Serviços</a></li>
+            <li><a href="#produtos" title="">Produtos</a></li>
+            <li><a href="#localizacao" title="">Localização</a></li>
+            <li><a href="#contatos" title="">Contatos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="destaque">
+      <figure>
+        <img class="responsive-img" src="img/slider.jpg" alt="">
+      </figure>
+    </section>
+
+    <section id="servicos" class="container">
+      <div class="row">
+        <div class="col s12 m4 center hoverable servicos-link">
+          <h4>Assistencia Técnica</h4>
+          <i class="material-icons large">build</i>
+          <p class="flow-text">
+            Serviços prestados por equipe técnica qualificada com alto nível técnico e treinamento constantes.
+          </p>
+        </div>
+        <div class="col s12 m4 center hoverable servicos-link">
+          <h4>Vendas de Produtos</h4>
+          <i class="material-icons large">devices_other</i>
+          <p class="flow-text">
+            Aqui você encontrará os lançamentos e melhores produtos de tecnologia do mercado.
+          </p>
+        </div>
+        <div class="col s12 m4 center hoverable servicos-link">
+          <h4>Suporte ao Técnico</h4>
+          <i class="material-icons large">people</i>
+          <p class="flow-text">
+            A Assistência Técnica, presta suporte técnico empresarial para hardware, software, sistemas e infraestrutura.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <h5 class="center">Tabela de Serviços</h5>
+          <table class="striped bordered responsive-table">
+            <thead>
+              <tr>
+                <th>Serviço</th>
+                <th>Tempo médio</th>
+                <th>Pagamento</th>
+                <th>Valor</th>
+                <th>Opções</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Formatação</td>
+                <td>2h</td>
+                <td>Dinheiro / Cartão</td>
+                <td>R$: 80,00</td>
+                <td>
+                  <a href="" class="btn-floating waves-effect deep-orange darken-4">
+                    <i class="material-icons">info</i>
+                  </a>
+                  <a href="" class="btn-floating waves-effect deep-orange darken-4">
+                    <i class="material-icons">add_shopping_cart</i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Formatação</td>
+                <td>2h</td>
+                <td>Dinheiro / Cartão</td>
+                <td>R$: 80,00</td>
+                <td>
+                  <a href="" class="btn-floating waves-effect deep-orange darken-4">
+                    <i class="material-icons">info</i>
+                  </a>
+                  <a href="" class="btn-floating waves-effect deep-orange darken-4">
+                    <i class="material-icons">add_shopping_cart</i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Formatação</td>
+                <td>2h</td>
+                <td>Dinheiro / Cartão</td>
+                <td>R$: 80,00</td>
+                <td>
+                  <a href="" class="btn-floating waves-effect deep-orange darken-4">
+                    <i class="material-icons">info</i>
+                  </a>
+                  <a href="" class="btn-floating waves-effect deep-orange darken-4">
+                    <i class="material-icons">add_shopping_cart</i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Formatação</td>
+                <td>2h</td>
+                <td>Dinheiro / Cartão</td>
+                <td>R$: 80,00</td>
+                <td>
+                  <a href="" class="btn-floating waves-effect deep-orange darken-4">
+                    <i class="material-icons">info</i>
+                  </a>
+                  <a href="" class="btn-floating waves-effect deep-orange darken-4">
+                    <i class="material-icons">add_shopping_cart</i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Formatação</td>
+                <td>2h</td>
+                <td>Dinheiro / Cartão</td>
+                <td>R$: 80,00</td>
+                <td>
+                  <a href="" class="btn-floating waves-effect deep-orange darken-4">
+                    <i class="material-icons">info</i>
+                  </a>
+                  <a href="" class="btn-floating waves-effect deep-orange darken-4">
+                    <i class="material-icons">add_shopping_cart</i>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="produtos">
+
+    </section>
+
+    <section id="localizacao">
+
+    </section>
+
+    <section id="contatos">
+
+    </section>
+  </main>
+  <footer>
+
+  </footer>
 
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <!-- Compiled and minified JavaScript -->
   <script src="js/materialize.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
