@@ -1,82 +1,95 @@
-@font-face{
-  font-family: SocialIcons;
-  src: url('../fonts/social_circles/Social-Circles-v1.1.otf');
+/* ------ FONTE DE ÍCONES SOCIAIS ------ */
+
+@font-face {
+ font-family: SocialIcons;
+ src: url('../fonts/social_circles/Social-Circles-v1.1.otf');
 }
+
+/* ------ LOGOS / NAV STYLES ------ */
 
 .slide-out-logo{
   width: 150px;
   height: 150px;
 }
-
 .navbar-logo{
-  height: 56px;
+  height: 60px;
 }
-/* GERAL */
 
-#servicos{
+/* ------ COMUM STYLES ------ */
+
+#servicos, #produtos, #contatos{
   padding-top: 76px;
 }
 
-/* DESTAQUE */
+/* ------ DESTAQUE STYLES ------ */
+
 #destaque{
   width: 100%;
   height: calc(100% - 64px);
 }
-
 #destaque figure{
-  width: 100%;
   margin: 0px;
+  width: 100%;
 }
-
 #destaque figure img{
   width: 100%;
 }
 
-/* SERVIÇOS */
+/* ------ SERVIÇOS STYLES ------ */
 
+#servicos{
+  margin-top: 30px;
+}
 .servicos-link:hover{
-  color: #bf360c ;
+  color: #bf360c;
   cursor: pointer;
 }
 
-/* PRODUTOS */
+/* ------ PRODUTOS STYLES ------ */
+
 .card-title{
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
 }
 
-/* LOCALIZACAO  */
+/* ------ FALE CONOSCO STYLES ------ */
 
-#localizacao{
+#mapa{
+  width: 100%;
   height: 500px;
-  width: 100%;
 }
-#localizacao iframe{
-  width: 100%;
+#mapa iframe{
   height: 100%;
+  width: 100%;
 }
 
-/* CONTATOS */
-
-input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
-  border-bottom: 2px solid #bf360c !important;
-  box-shadow: none;
-}
-
-input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+.input-field input[type=text]:focus+label,.input-field textarea:focus+label{
   color: #bf360c !important;
 }
+input.valid:not([type]), 
+input.valid:not([type]):focus,
+input[type=text].valid:not(.browser-default), 
+input[type=text].valid:not(.browser-default):focus,
+textarea.materialize-textarea.valid, 
+textarea.materialize-textarea.valid:focus, 
+.input-field input[type=text]:focus,
+.input-field textarea:focus{
+  border-bottom: 2px solid #bf360c !important;
+  box-shadow: none !important;
 
-/* FOOTER */
+}
+
+/* ------ FOOTER STYLES ------ */
 
 .icons-list li{
   display: inline;
+  margin: 0px;
 }
 
-.icons-list li a{
+.icons-list-item{
   font-family: SocialIcons;
   font-size: 64px;
-  color: white;
+  color: white
 }
-.icons-list li a:hover{
-  color: black
+.icons-list-item:hover{
+  color: black;
 }
